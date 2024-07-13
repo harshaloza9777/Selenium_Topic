@@ -16,7 +16,7 @@ public class FindElement {
 		// TODO Auto-generated method stub
 		
 		
-		WebDriver driver=new FirefoxDriver();
+		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.in/");
 		
