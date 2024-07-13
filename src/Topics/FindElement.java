@@ -15,7 +15,7 @@ public class FindElement {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 		
-		System.getProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
+		
 		WebDriver driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.in/");
